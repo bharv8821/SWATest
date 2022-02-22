@@ -51,8 +51,8 @@
     protected override async Task OnInitializedAsync()
     //protected override async Void OnInitializedAsync()
     {
-        //await base.OnInitializedAsync();
+        await base.OnInitializedAsync();
 
-        await UpdateCatalog(''); //changed 0 to ''
+        await UpdateCatalog(0); 
     }
 }
